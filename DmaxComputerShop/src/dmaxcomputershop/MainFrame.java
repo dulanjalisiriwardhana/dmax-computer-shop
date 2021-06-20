@@ -123,6 +123,7 @@ public class MainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void welcomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_welcomeActionPerformed
+        System.out.println("Hello world");
         MainMenu menu=new MainMenu();
         menu.setVisible(true);
         dispose();
